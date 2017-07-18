@@ -1,3 +1,5 @@
+%This file is used to obtain binary image as well as detect edges
+
 function segmentedImage = GraytoSegment(image1)
     I = image1;
     [~, threshold] = edge(I, 'sobel');
